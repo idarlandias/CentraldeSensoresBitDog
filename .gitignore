@@ -1,0 +1,39 @@
+# Build outputs
+build/
+*.uf2
+*.elf
+*.bin
+*.hex
+*.map
+*.dis
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+
+# Data files
+pico-server/sensor_data.csv
+
+# Generated files
+*.pdf
+*_hd.md
+*_rendered.md
+relatorio_final_hd-*.png
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary
+*.tmp
+*.log
+*.bak

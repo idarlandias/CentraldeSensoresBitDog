@@ -1,0 +1,21 @@
+# Project Analysis Task List
+
+- [x] Read documentation (# Estação de Monitoramento Ambiental Híb.md) <!-- id: 0 -->
+- [x] Explore project directories <!-- id: 1 -->
+  - [x] `led_control_webserver`
+  - [x] `CentraldeSensoresBitDog`
+  - [x] `pico-server`
+- [x] **Phase 1: Server Upgrade** <!-- id: 4 -->
+  - [x] Create `pico-server/templates/index.html` with Chart.js <!-- id: 5 -->
+  - [x] Create `pico-server/.env` for secrets <!-- id: 6 -->
+  - [x] Refactor `pico-server/server.py` to use templates and .env <!-- id: 7 -->
+- [x] **Phase 2: Firmware Upgrade (FreeRTOS)** <!-- id: 8 -->
+  - [x] Update `CMakeLists.txt` to include FreeRTOS <!-- id: 9 -->
+  - [x] Rewrite `main.c` with FreeRTOS Tasks and Queues <!-- id: 10 -->
+- [x] **Phase 4: Peripherals Integration (OLED, Buzzer, LED)** <!-- id: 14 -->
+  - [x] Import drivers (SSD1306, WS2812) <!-- id: 15 -->
+  - [x] Integrate OLED Display logic in Firmware <!-- id: 16 -->
+  - [x] Integrate Buzzer and RGB LED logic in Firmware <!-- id: 17 -->
+- [x] **Phase 5: Final Review** <!-- id: 18 -->
+  - [x] Verify compilation and functionality <!-- id: 19 -->
+  - [x] Finalize Report <!-- id: 20 -->
